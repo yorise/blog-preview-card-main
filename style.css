@@ -1,0 +1,82 @@
+/* global */
+
+:root {
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
+  background-color: var(--Yellow);
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 25%;
+}
+
+section.content {
+  background-color: var(--White);
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem black;
+}
+
+section.content div.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+section.content div.box img.ilustration {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 1rem;
+}
+
+section.content div.box p:nth-child(2) {
+  background-color: var(--Yellow);
+  padding: 0.5rem;
+  margin: 1rem 0 0;
+  font-weight: 700;
+  border-radius: 0.2rem;
+}
+
+section.content div.box p:nth-child(3) {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+section.content h1 {
+  font-weight: 800;
+}
+
+section.content p.text {
+  line-height: 1.5rem;
+  color: var(--Grey);
+}
+
+section.content div.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+section.content div.profile img {
+  width: 15%;
+}
+
+section.content div.profile p {
+  font-weight: 800;
+}
+
+/* global */
