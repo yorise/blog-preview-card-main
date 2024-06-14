@@ -28,7 +28,8 @@ section.content {
   background-color: var(--White);
   padding: 1rem;
   border-radius: 1rem;
-  box-shadow: 0.5rem 0.5rem black;
+  box-shadow: 0.5rem 0.5rem var(--Black);
+  border: 1px solid var(--Black);
 }
 
 section.content div.box {
